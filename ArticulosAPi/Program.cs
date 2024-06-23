@@ -1,4 +1,7 @@
 
+using ArticulosAPi.DAL;
+using Microsoft.EntityFrameworkCore;
+
 namespace ArticulosAPi
 {
     public class Program
@@ -6,6 +9,9 @@ namespace ArticulosAPi
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            var ConStr = builder.Configuration.GetConnectionString("ConStr");
+            builder.Services.AddDbContext<Contexto>(opcions => opcions.UseSqlite(ConStr));
 
             // Add services to the container.
 
