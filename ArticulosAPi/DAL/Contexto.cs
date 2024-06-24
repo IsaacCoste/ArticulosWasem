@@ -1,5 +1,5 @@
-﻿using ArticulosAPi.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Shared.Models;
 
 namespace ArticulosAPi.DAL;
 public class Contexto : DbContext
