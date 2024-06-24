@@ -24,4 +24,10 @@
     <ProjectReference Include="..\Shared\Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Data\ServiceArticulos.Db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
