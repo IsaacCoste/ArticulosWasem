@@ -1,6 +1,6 @@
 ﻿using ArticulosAPi.DAL;
-using ArticulosAPi.Models;
 using Microsoft.EntityFrameworkCore;
+using Shared.Models;
 using System.Linq.Expressions;
 
 namespace ArticulosAPi.Services;
