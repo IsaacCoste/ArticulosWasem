@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ArticulosAPi.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20240623192137_inicial")]
+    [Migration("20240624034908_inicial")]
     partial class inicial
     {
         /// <inheritdoc />
@@ -19,7 +19,7 @@ namespace ArticulosAPi.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.6");
 
-            modelBuilder.Entity("ArticulosAPi.Models.Articulos", b =>
+            modelBuilder.Entity("Shared.Models.Articulos", b =>
                 {
                     b.Property<int>("ArticuloId")
                         .ValueGeneratedOnAdd()

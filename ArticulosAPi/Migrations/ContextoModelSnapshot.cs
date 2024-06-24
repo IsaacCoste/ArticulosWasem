@@ -16,7 +16,7 @@ namespace ArticulosAPi.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.6");
 
-            modelBuilder.Entity("ArticulosAPi.Models.Articulos", b =>
+            modelBuilder.Entity("Shared.Models.Articulos", b =>
                 {
                     b.Property<int>("ArticuloId")
                         .ValueGeneratedOnAdd()
